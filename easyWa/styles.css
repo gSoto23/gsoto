@@ -1,0 +1,33 @@
+/* Custom CSS styles */
+body {
+    background-color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.leguage-btn {
+    font-size: 8px;
+    font-style: bold;
+}
+
+.text-lenguages {
+    margin: 25px 0px;
+    font-size: 20px;
+}
+
+#whatsappForm {
+    margin: 70px 0 160px 0;
+}
+
+h1 {
+    font-size: 70px;
+}

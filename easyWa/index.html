@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyWA Landing Page</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-success text-white text-center py-4">
+        <h1 class="mb-4">EasyWA</h1>
+    </header>    
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Spanish Paragraph -->
+                <p class="text-center text-lenguages" id="spanishText">¿Estás cansado de guardar números para iniciar una conversación en WhatsApp? ¡Solo agrega el número e inicia la conversación!</p>
+                <!-- English Paragraph -->
+                <p class="text-center text-lenguages" id="englishText" style="display: none;">Are you tired of saving numbers in your contacts to use WhatsApp? Now you can just add the number and start the conversation!</p>
+                <form id="whatsappForm">
+                    <div class="input-group mb-3">
+                        <input type="text" id="userNumber" class="form-control" placeholder="Ingrese un número de teléfono" aria-label="Recipient's phone number" aria-describedby="basic-addon2" required>
+                        <div class="input-group-append">
+                            <button id="startConversationBtn" class="btn btn-success" type="button">Iniciar Conversación</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+    <footer class="bg-success text-white text-center py-4">
+        <div class="d-flex justify-content-center align-items-center">
+            <p class="mb-0">&copy; 2023 EasyWA. All rights reserved.</p>
+            
+            <!-- Buy Me a Beer Button -->
+            <div class="btn-group btn-group-toggle btn-sm" data-toggle="buttons">
+                <label class="btn btn-secondary btn-light leguage-btn" id="spanishBtn">
+                    <input type="radio" name="language" value="spanish" checked> Español
+                </label>
+                <label class="btn btn-secondary btn-light leguage-btn" id="englishBtn">
+                    <input type="radio" name="language" value="english"> English
+                </label>
+            </div>
+        </div>
+    </footer>
+    <!-- Link to Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript to handle language toggle -->
+    <script src="script.js"></script>
+</body>
+</html>
