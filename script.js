@@ -57,7 +57,7 @@ function consoleText(words, id, colors) {
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    emailjs.sendForm('service_q5x4paa', 'template_s5ypeeh', this)
+    emailjs.sendForm('service_q5x4paa', 'template_kdw0hok', this)
         .then(function() {
             alert('Your message has been sent successfully!');
         }, function(error) {
